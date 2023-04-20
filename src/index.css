@@ -1,0 +1,68 @@
+/* ============= GLOBAL CSS =============== */
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* ============= PROJECT CSS =============== */
+
+
+.person-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  border: 4px solid wheat
+}
+
+.name {
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+.title {
+  text-transform: capitalize;
+  color: rgb(50, 49, 49);
+  margin-bottom: 0.75rem;
+}
+.text {
+  max-width: 35em;
+  margin: 0 auto;
+  margin-top: 2rem;
+  line-height: 2;
+  color: grey;
+}
+.icon {
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: wheat;
+}
+
+
+/* ============= Slick Carousel =============== */
+
+.slick-container {
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 80vw;
+  max-width: 800px;
+  text-align: center;
+}
+.slick-slide img {
+  display: inline-block;
+}
+
+.slick-prev::before {
+  color: rgb(236, 162, 25) !important;
+}
+.slick-next::before {
+  color: rgb(236, 162, 25) !important;
+}
