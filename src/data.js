@@ -18,7 +18,7 @@ export const list = [
     name: "NSENGIYUMVA CHRISTIAN",
     title: "Web developer",
     quote:
-      "When I started programming few months ago, I thought that with in one or two month I will be a pro. . But eventually I found that, being patience and build yourself brick by brick is the best way",
+      "Good code is its own best documentation. As you’re about to add a comment, ask yourself, ‘How can I improve the code so that this comment isn’t needed?",
   },
   {
     id: 2,
